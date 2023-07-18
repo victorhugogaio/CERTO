@@ -1,7 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header,
+section h2{
+    font-family: 'Bungee', cursive;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -10,11 +22,16 @@ header{
     color: #ecf0f1;
 }
 
+header h1,
+section h2{
+    font-weight: normal;
+}
+
 header nav li{
     display: inline;
     margin-left: 16px;
     color: #ecf0f1;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 
@@ -29,8 +46,44 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .conteiner{
+header .conteiner, 
+section .conteiner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*ACIMA ESTILIZAÇÃO DO HEADER*/
+
+.brand-list img{
+    height: 24px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #182c61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
 }
